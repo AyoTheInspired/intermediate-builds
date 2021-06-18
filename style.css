@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Lemonada:wght@300;400;500&family=Montserrat&family=Roboto&family=Roboto+Slab&display=swap");
+
+:root {
+	/* BODY COLORS */
+	--clr-primary-1: #003e6b;
+	--clr-primary-2: #0a558a;
+	--clr-primary-3: #0f6099;
+	--green-gradient: linear-gradient(to left, #093028, #237a57);
+	--light-green: #237a57;
+	--dark-green: #093028;
+	--gld-clr-1: #f5cd1b;
+	/* TRANSITIONS */
+	--sht-trans: all 200ms ease-in-out;
+	--med-trans: all 0.5s ease-in-out;
+	--lng-trans: all 1s ease-in-out;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: var(--clr-primary-3);
+	background: var(--green-gradient);
+	background: var(--light-green);
+}
+
+
+
+.project-wrapper {
+	background: #eed;
+	margin: 20px auto;
+	border-radius: 5px;
+}
+
+.project-title-wrapper {
+	background: var(--dark-green);
+
+	border-radius: 10px;
+	box-shadow: 0px 0px 3px #000000;
+}
+
+.project-title {
+	font-size: 18px;
+	white-space: nowrap;
+	color: #fff;
+	text-align: center;
+	letter-spacing: 1px;
+	font-family: "Lemonada", sans-serif;
+}
+
+.Flexed {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
